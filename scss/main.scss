@@ -3,6 +3,10 @@ $body-color: white;
 
 $link-color: white;
 
+.nav-link {
+    color: white !important;
+    font-size: 1.75rem !important;
+}
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";

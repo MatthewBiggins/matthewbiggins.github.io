@@ -21,3 +21,40 @@ a:hover {
     padding-right: 20px;
     color: black;
 }
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#Iframe-Master-CC-and-Rs {
+    max-width: 512px;
+    max-height: 100%; 
+    overflow: hidden;
+}
+
+.responsive-wrapper {
+    position: relative;
+    height: 0;    /* gets height from padding-bottom */
+
+}
+
+.responsive-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+.responsive-wrapper-wxh-572x612 {
+    padding-bottom: 107%;
+}
